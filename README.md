@@ -22,9 +22,9 @@ We have also implemented the data addition features by the user, where user can 
 by specialist.
 
 
-<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30232961_1080908715382725_2143035180_o.png" width="500">
-<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30550171_1080908672049396_2122292057_o.png" width="500">
-<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30826251_1081008795372717_423569719_o.png" width="500">
+<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30232961_1080908715382725_2143035180_o.png" width="300">
+<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30550171_1080908672049396_2122292057_o.png" width="300">
+<img src="https://github.com/deepak728/Healthcare/blob/master/screenshots/30826251_1081008795372717_423569719_o.png" width="300">
 
 # Future Work 
 
