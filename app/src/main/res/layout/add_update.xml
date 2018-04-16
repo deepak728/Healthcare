@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:background="@color/chat_background"
+    tools:context="com.example.deepak.healthcare.add_update"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textVie3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Add Data to the Database"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/add_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="5dp"
+        android:inputType="textNoSuggestions"
+        android:hint="Disease Name"/>
+
+    <EditText
+        android:id="@+id/add_symp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:hint="Symptoms"
+        android:inputType="textNoSuggestions"
+        />
+
+    <EditText
+        android:id="@+id/add_med"
+        android:hint="Medicines"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+
+        android:inputType="textNoSuggestions"
+        />
+
+    <EditText
+        android:id="@+id/add_pre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textNoSuggestions"
+        android:hint="Precautions" />
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:textSize="18dp"
+        android:textColor="@color/chat_background"
+         android:maxHeight="0dp"
+        android:padding="5dp"
+        android:maxWidth="0dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add " />
+
+
+</LinearLayout>

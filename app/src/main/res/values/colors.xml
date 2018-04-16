@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="text_color">#000000</color>
+    <color name="hint_col">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="chat_background">  #009999
+    </color>
+    <color name="chat_color">  #009999
+    </color>
+</resources>

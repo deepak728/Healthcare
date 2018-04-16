@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+    <string name="app_detail">HealthCare App will have the information of diseases, symptoms, precautions, medicines prescription and their composition present offline at a single place. </string>
+</resources>

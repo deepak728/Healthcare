@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chat_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context="com.example.deepak.healthcare.sign_up">
+    <TextView
+        android:id="@+id/textVie3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Details" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPersonName"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:hint="Email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:hint="Age" />
+
+
+    <TextView
+        android:id="@+id/texView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Blood Group" />
+
+    <Spinner
+        android:id="@+id/blood_group"
+        android:textColor="@color/text_color"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/bg_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Sex" />
+
+    <Spinner
+        android:id="@+id/sex"
+        android:padding="10dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/sex_item"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:textSize="15dp"
+        android:textColor="@color/chat_background"
+
+        android:padding="5dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+
+</LinearLayout>
